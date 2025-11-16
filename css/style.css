@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(247, 237, 223);
+}
+
+::selection {
+    background-color: rgb(255, 194, 97);
+    color: rgb(53, 46, 40);
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    ;
+    display: block;
+    position: relative;
+    font-size: 50px;
+    z-index: 1;
+}
+
+h1::before {
+    content: "";
+    background-color: rgb(255, 194, 97);
+    position: absolute;
+    z-index: -1;
+    left: 30;
+    bottom: 5px;
+    height: 30%;
+    width: 66%;
+    transition: height 0.3s ease;
+}
+
+h1:hover::before {
+    height: 55%;
+}
+
+h2 {
+    font-family: "Righteous";
+    background-image: linear-gradient(to right, rgb(70, 166, 90), rgb(197, 185, 54));
+    font-size: 25px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    border-block: 2px dotted rgb(53, 46, 40);
+}
+
+label {
+    line-height: 24px;
+}
+
+.form-control:focus {
+    border-color: orangered;
+    box-shadow: 0 0 0 0.25rem rgba(253, 149, 13, 0.25);
+}
+
+.btn-submit {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+}
+
+label,
+table,
+button,
+li {
+    font-family: "PT Sans Caption", sans-serif !important;
+}
+
+.btn-visit {
+    --bs-btn-bg: #9eb23b;
+    --bs-btn-border-color: #9eb23b;
+    --bs-btn-hover-bg: #8a9e23;
+    --bs-btn-hover-border-color: #6e8018;
+}
+
+.btn-delete {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #eb1d36;
+    --bs-btn-border-color: #eb1d36;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d30820;
+    --bs-btn-hover-border-color: #ba081d;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.alert-overlay {
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    font-family: "Bree Serif", serif;
+
+}
+
+.alert-box {
+    background: #fff8ef;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.dot.red {
+    background: #ff605c;
+}
+
+.dot.yellow {
+    background: #ffbd44;
+}
+
+.dot.green {
+    background: #00ca4e;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    margin-left: auto;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+li {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 14px;
+}

@@ -1,0 +1,12 @@
+/*Tablet*/
+@media(min-width:768px){
+  h1::before{
+    width:38%;
+    }
+}
+/* Laptop */
+@media (min-width:992px) {
+    h1::before{
+    width:25.5%;
+    }
+}

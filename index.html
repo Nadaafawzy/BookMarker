@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="imgs/bookmark.png" type="image/x-icon">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amatic+SC:wght@400;700&family=Archivo+Black&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=BBH+Sans+Hegarty&family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amatic+SC:wght@400;700&family=Archivo+Black&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=BBH+Sans+Hegarty&family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amatic+SC:wght@400;700&family=Archivo+Black&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=BBH+Sans+Hegarty&family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amatic+SC:wght@400;700&family=Archivo+Black&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=BBH+Sans+Hegarty&family=Bree+Serif&family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media css for responsive -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <section>
+        <div class="container-md p-lg-5">
+            <h1 class="text-center my-5 ">Bookmarker</h1>
+            <div class="content py-2">
+                <h2 class="gradient text-center pt-3 h4"><i class="fa-solid fa-bookmark"></i>Bookmark your favorite
+                    sites<i class="fa-solid fa-bookmark"></i></h2>
+                <form id="bookform">
+                    <label for="siteName" class="fw-bold">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                        Site Name
+                    </label>
+                    <input type="text" placeholder="Bookmark Name" class="form-control pt-2 mb-4" id="siteName"
+                        oninput="validate(nameRegex,siteNameInput)">
+                    <label for="siteURL" class="fw-bold">
+                        <i class="fa-solid fa-link"></i>
+                        Site URL
+                    </label>
+                    <input type="text" placeholder="Website URL" class="form-control pt-2 mb-4" id="siteURL"
+                        oninput="validate(urlRegex,siteUrlInput)">
+                    <button type="button"
+                        class="btn btn-submit px-5 d-flex justify-content-center align-items-center mx-auto mb-3"
+                        id="btn-submit">Submit</button>
+                </form>
+            </div>
+            <table class="table text-center mt-3">
+                <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Website Name</th>
+                        <th>Visit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="Bookinfo">
+
+                </tbody>
+            </table>
+        </div>
+
+        <div id="validationAlert" class="alert-overlay position-fixed w-100 h-100 d-flex justify-content-center align-items-center d-none">
+            <div class="alert-box">
+                <div class="alert-header d-flex justify-content-start">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="close-btn fw-bold"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="alert-body">
+                    <h3 class="py-3">Site Name or Url is not valid, Please follow the rules below :</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-regular fa-circle-right text-danger"></i> Site name must contain at least 3
+                            characters</li>
+                        <li><i class="fa-regular fa-circle-right text-danger"></i> Site URL must be a valid one</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bootstrap js -->
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <!-- main js -->
+    <script src="js\main.js"></script>
+</body>
+
+</html>
